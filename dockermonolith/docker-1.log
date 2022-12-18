@@ -1,0 +1,4 @@
+REPOSITORY                 TAG       IMAGE ID       CREATED              SIZE
+azathoth/ubuntu-tmp-file   latest    83e0fdc8f800   About a minute ago   63.1MB
+ubuntu                     18.04     251b86c83674   9 days ago           63.1MB
+hello-world                latest    feb5d9fea6a5   15 months ago        13.3kB
