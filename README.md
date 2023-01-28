@@ -17,3 +17,12 @@ takhmazyanvladimir microservices repository
 Параметризованы имя проекта, имя пользователя, порты, маски подсетей и тэги
 Проверена работа параметризованного сценария
 Ответ на вопрос: базовое имя проекта по умолчанию берётся из имени файла, параметризуется через ENV-переменную COMPOSE_PROJECT_NAME
+
+В рамках ДЗ monitoring-1 сделано следующее:
+Создан сценарий docker-compose для запуска приложения reddit, сбора метрик prometheus в т.ч. с использованием node exporter.
+Образы микросервисов запушены в docker hub: 
+https://hub.docker.com/r/takhmazyanvladimir/prometheus
+https://hub.docker.com/r/takhmazyanvladimir/ui
+https://hub.docker.com/r/takhmazyanvladimir/post
+https://hub.docker.com/r/takhmazyanvladimir/comment
+
